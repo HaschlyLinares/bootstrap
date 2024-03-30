@@ -1,0 +1,327 @@
+.bg-sena{
+    background: transparent !important;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* Items del menú a la derecha */
+nav .navbar-collapse{
+    justify-content: flex-end;
+}
+nav .navbar-collapse .nav-link{
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    margin: 0 30px;
+    border-bottom: 1px solid transparent;
+    position: relative;
+}
+nav .navbar-collapse .nav-link:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+#carouselHeroCaptions .carousel-item .carousel-caption{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    z-index: 10;
+    text-align: left;
+}
+.carousel-item .carousel-caption h5{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+}
+.carousel-item .carousel-caption p{
+    font-size: 25px;
+}
+.carousel-item .carousel-caption button{
+    background: rgb(255, 0, 0);
+    padding: 12px 40px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+}
+#play-video{
+    position: absolute;
+    z-index: 999;
+    right: 20%;
+    top: 30%;
+    height: 100px;
+    background: transparent;
+    border-color: transparent;
+    
+}
+nav .navbar-brand{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+main{
+    width: 100%;
+    position: relative;
+}
+#about{
+    width: 100%;
+    position: relative;
+    padding-bottom: 120px;
+    background: #fff;
+
+}
+#about .card1{
+    padding: 30px;
+ text-align: center;   
+ border: 1px solid rgb(238, 45, 23);
+ box-shadow: 0 0  9px 0 #d9d1d1;
+ background: #fff;
+}
+#about .card1 i{
+    font-size: 50px; 
+    color: #c90505;
+
+
+}
+#about .card1 p{
+    font-size: 18px;
+    color: gray;
+
+
+
+}
+#about .card2{
+    padding: 30px;
+ text-align: center;   
+ border: 1px solid rgb(238, 45, 23);
+ box-shadow: 0 0  9px 0 #d9d1d1;
+ background: royalblue;
+}
+#about .card2 h3 {
+    color:#fff;
+    font-size: 25px;
+}
+#about .card2 p {
+    color:#fff;
+    font-size: 18px;
+}
+
+#about .card2 button{
+    color:#fff;
+    padding: 10px 40px;
+    background:  rgba(255, 255, 255, 0.366);
+    font-size: 20px;
+    border-color: transparent;
+}
+#about .cont-cards{
+    justify-content: space-around;
+    position: relative;
+    top: -60px;
+    z-index: 9;
+    
+}
+
+#about .col-md-6{
+padding: 85px;   
+
+}
+#about .col-md-6 h4{
+    color: #c90505;
+
+}
+#about .col-md-6 button{
+    background: #c90505;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+
+}
+#about .linea{
+    border-left: 4px solid  salmon;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+#about .col-md-6 ul li{
+    font-size: 20px;
+    color: #300636;
+    list-style: none;
+
+}
+#about .nose1{
+    position: relative;
+}
+
+#about .parrafo{
+    
+    position: absolute;
+    z-index: 9;
+    bottom:45px;
+    color: beige;
+    background: #ae2727;
+    width: 300px;
+    height: 180px;
+    right: -25px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+#about .parrafo::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    background: url("../img/Polygon\ 1.png");
+    left: -70px;
+    bottom: 0;
+}
+
+#servicio .col-md-3{
+    padding: 50px; 
+    margin: 0 20px 20px 20px;
+    width: 400px;
+     
+}
+
+#servicio .col-md-3 h4{
+    color: #c90505;
+
+}
+
+
+#servicio .col-md-3 i{
+    font-size: 50px; 
+    color: #c90505;
+
+}
+
+#servicio .marta2{
+    text-align: center;
+}
+
+#servicio .marta2{
+    padding: 30px;
+ text-align: center;   
+ border: 1px solid rgba(238, 45, 23, 0);
+ box-shadow: 0 0  9px 0 #d9d1d1;
+ background: #fff;
+}
+
+#servicio .cont-servi{
+    justify-content:space-around;
+    position: relative;
+    z-index: 20;
+    bottom: 80px;
+
+}
+
+#servicio .col-md-3 button{
+    background: #c9050500;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(187, 0, 0);
+    border-color: transparent;
+    
+
+}
+
+#servicio .col-md-3 button i {
+    font-size: 20px; 
+    color: #c90505;
+
+}
+
+#servicio .marta1 button{
+    background: #9b0303;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    
+
+}
+
+#reviews{
+    width: 100%;
+    position: relative;
+    padding-bottom: 120px;
+    background: #fff;
+}
+
+#reviews .carru-img img{
+    width: 800px;
+    height: 700px; 
+
+}
+
+#reviews h2{
+    text-align: center;
+}
+
+#reviews .principal{
+    background: rgb(192, 60, 60);
+    padding-top: 60px;
+}
+#reviews .principal h2{
+    font-size: 45px;
+    color: #fff;
+}
+#carouselreviews .carousel-item{
+    text-align: center;
+    padding-top: 40px;
+}
+#carouselreviews .carousel-item p{
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+
+#carouselreviews .carousel-item i {
+    font-size: 70px; 
+    color: #fff;
+
+}
+#carouselreviews .carousel-item img{
+    width: 120px;
+    margin: 20px;
+    border-radius: 120px;
+}
+
+#carouselreviews .carousel-item h3{
+    text-align: center;
+    color: #fff;
+}
+#acordi .accordion-button{
+    background: rgba(23, 22, 22, 0.767);
+    color:#000000}
+
+/* #acordi{
+
+    width: 100%;
+    text-align:center ;
+    padding-top: 150px;
+    height: 100%;
+    margin: 0 20px 200px 0;
+
+}
+
+#acordi h4{
+    color: red;
+    padding: 0 0 25px 0;
+
+}
+
+
+#acordi .accordion-button{
+    background: rgba(255, 0, 0, 0.767);
+    color:#fff
+} */
